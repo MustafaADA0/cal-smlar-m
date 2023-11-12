@@ -1,0 +1,299 @@
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+.ust-sabit{
+    background-color: #ffcb04;
+    width: 100%;
+    height: 170px;
+    bottom: 155px;
+    
+
+    
+}
+
+.ust-sabit .araclar{
+
+    width: 100%;
+    
+    min-height: 155px;
+
+    display: flex;
+   
+    justify-content: space-evenly;
+}
+.ust-sabit .araclar :hover{
+    cursor: pointer;
+}
+
+.ust-sabit .araclar .uye-ol{
+
+    flex: inherit;
+    height: 56px;
+    margin-top: 50px;
+    width: 205px;
+    background-color: black;
+    color: #ffcb04;
+    margin-left: -5px;
+    border: none;
+
+}
+
+.ust-sabit .araclar .uye-giris{
+
+    flex: inherit;
+    height: 56px;
+    margin-top: 50px;
+    width: 205px;
+    background-color: #ffcb04;
+    color: black;
+    margin-left: -132px;
+    margin-right: -143px;
+}
+
+.takip{
+
+    background-color: #1e1c1c;
+    height: 115px;
+    width: 100%;
+    position: sticky;
+    top: 0;  
+    z-index: 1; 
+    
+}
+
+.takip .araclar-2{
+
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.takip .araclar-2 .bo{
+
+    margin: 10px;
+    height: 50px;
+    width: 200px;
+}
+
+.takip .araclar-2 .ku{
+
+    text-align:center;
+    
+    
+}
+
+.takip .araclar-2 .ku::placeholder{
+    color: black;
+    font-size:large;
+    font-style:normal;
+    
+
+}
+
+.takip .araclar-2 .ki {
+
+    background-color: #ffcb04;
+    
+
+}
+
+
+
+.takip .araclar-2 .bo :hover{
+
+    cursor: pointer;
+}
+
+.foto-ark {
+
+    background-color:black;
+    width: 100%;
+    min-height: 450px;
+
+}
+
+.foto-ark .foto{
+    text-align: center;
+    
+}
+
+.foto-ark .foto img {
+
+    width: 60%;
+    height: 60vh;
+    margin-top: 50px;
+}
+
+
+.cards{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.cards .card img{
+    width: 180px;
+    margin: 15px;
+}
+
+.cards .card .ply{
+    width: 20px;
+    position: absolute;
+    top: 985px;
+    
+}
+.cards .card{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.cards .card h3{
+
+    color: white;
+    font-size: 15px;
+    margin-left: 25px;
+
+}
+
+
+.asagi-container{
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.asagi-container .ekran-image{
+    margin: 55px;
+}
+
+.asagi-container .asagi-metin{
+
+    width: 100%;
+
+}
+
+.asagi-container .asagi-metin h1{
+    color: white;
+    width: 50%;
+    margin: auto;
+
+}
+
+.asagi-container .mobil-conteiner{
+    width: 100%;
+    margin: 15px;
+}
+
+.asagi-container .mobil-conteiner .mobil-ikons{
+    width: 100%;
+}
+
+
+.asagi-container .mobil-conteiner .mobil-ikons img{
+
+    width: 12%;
+    margin: 15px;
+}
+
+
+.mobil-conteiner .sosyal-medya .sosyal-ikons img{
+
+    margin: 5px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+.asagi-container .border-conteinar {
+
+    width: 100%;
+
+    height: 250px;
+   
+}
+
+.asagi-container .border-conteinar .yardim-buton{
+
+    border: 1px solid #090909;
+    height: 50%;
+    width: 65%;
+    margin-left: 19%;
+    margin-top: 30px;
+    background-color: #090909;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.asagi-container .border-conteinar .yardim-buton .yardim-b{
+    
+    margin-top: 25px;
+    height: 30px;
+    background-color: #090909;
+    color: #ffcb04;
+    border: none;
+    font-size: x-large;
+    
+}
+
+.asagi-container .border-conteinar .yardim-buton .button-kunye{
+
+    background-color: #090909;
+    color: white;
+    margin: 25px;
+    height: 30px;
+    border: none;   
+    
+
+
+}
+.asagi-container .border-conteinar .yardim-buton  :hover{
+    cursor: pointer;
+    
+}
+
+.asagi-container .mobil-conteiner .mobil-ikons :hover{
+
+    cursor: pointer;
+}
+.asagi-container .sosyal-medya .sosyal-ikons :hover{
+
+    cursor: pointer;
+}
+
+.cards .card :hover{
+
+    cursor: pointer;
+
+}
+
+.foto-ark .foto :hover{
+    cursor: pointer;
+}
+
+
+.cards-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+}
+   
+
