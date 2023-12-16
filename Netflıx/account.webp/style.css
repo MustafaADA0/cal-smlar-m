@@ -1,0 +1,44 @@
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+a{
+       text-decoration: none;
+}
+.navbar{
+       height: 90px;
+       background-color: black;
+       margin: 10px;
+}
+.logo{
+       width: 10%;
+}
+.logo img{
+
+       width: 100%;
+}
+.container{
+       margin: 5rem 3rem 0 15rem;
+}
+.baslik{
+       display: flex;
+}
+.container1{
+       display: flex;
+}
+.kart{
+       display: flex;
+}
+.kart ul{
+       list-style: none;
+       margin: 2rem 2rem 0 0;
+}
+.list{
+       margin-top: 2rem;
+       font-size: 1rem;
+       margin-left: auto;
+}
+.list ul{
+       list-style: none;
+}
