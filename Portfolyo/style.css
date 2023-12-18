@@ -1,0 +1,53 @@
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+body{
+       background-color: silver;
+       overflow-x: hidden;
+}
+.navbar{
+       background-color: black !important;
+       height: 5rem;
+       position: fixed;
+       width: 100%;
+       z-index: 1;
+}
+.container-fluid{
+       position: absolute;
+       left:68%;
+}
+.navbar-text{
+       color: rgb(255, 255, 255);
+       align-items: center;
+       position: absolute;
+}
+.navbar-text h3{
+       margin-left: 1rem;
+}
+.navbar img{
+       position: fixed;
+       width: 15%;
+       margin-left: 42.5%;
+
+}
+.aciklama{
+       width: 90%;
+       position: absolute;
+       margin-top: 10%;
+       margin-left: 5%;
+       color:rgb(5, 11, 16);
+}
+.container1{
+       width: 80%;
+       height: 100%;
+       position: absolute;
+       margin: 8% 10% 0 10%;
+}
+.carousel{
+       color: rgb(43, 41, 41);
+}
+
+
+
